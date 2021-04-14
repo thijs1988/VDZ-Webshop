@@ -1,0 +1,424 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+
+  font-family: 'Poppins', sans-serif;
+}
+
+.imnav{
+  height: 45px;
+  margin-left: 5px;
+}
+
+.item{
+  height: 600px;
+}
+.first-slide{
+  background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),
+  url(../afbeeldingen/IMG_6725.jpg);
+  background-size: cover;
+}
+
+.second-slide{
+  background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),
+  url(../afbeeldingen/IMG_6718.jpg);
+  background-size: cover;
+}
+
+.third-slide{
+  background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),
+  url(../afbeeldingen/IMG_6763.jpg);
+  background-size: cover;
+}
+.title-color{
+  color: #fff;
+}
+
+.btn-color{
+  background: #000;
+  color: grey;
+}
+
+.btn-color-hover{
+  color: #fff;
+}
+.contact{
+  margin-left: 5px;
+}
+.prijs{
+  margin-left: 5px;
+}
+@@keyframes slide-btn {
+  16%{
+    transform: translateY(8px);
+  }
+  33%{
+    transform: translateY(-6px);
+  }
+  50%{
+    transform: translateY(4px);
+  }
+  65%{
+    transform: translateY(-2px);
+  }
+  85%{
+    transform: translateY(1px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+.slide-btn{
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0,0,0,0);
+}
+.slide-btn:hover,
+.slide-btn:focus,
+.slide-btn:active{
+  animation-name: slide-btn;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+
+}
+.service-icon{
+  display: inline-block;
+  font-size: 125px;
+  margin-top: 30px;
+  padding: 8px 16px;
+}
+
+.panel-photo {
+  height: 100px;
+}
+
+.h-settings {
+  height: 50px;
+}
+
+.p-settings {
+  width: 140px;
+  height: 80px;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.well {
+  height: 50px;
+}
+
+.head-settings{
+  width: 500px;
+  height: 40px;
+  border: 2px solid #grey;
+  border-radius: 15px;
+  box-shadow: 7px 7px 15px rgba(0,0,0,0.6);
+  margin: 8% auto;
+  padding: 15px;
+  background-color:
+}
+.text-mod{
+  margin-top: -7px;
+}
+
+#partial-headerWrapper{
+  position:relative;
+  padding:0;
+  margin:0;
+  overflow:hidden;
+  height:500px;
+  background-image: url(../afbeeldingen/IMG_6725.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 700px;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+#partial-logotext{
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  background-image: url();
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 180px;
+  margin-left: 25px;
+}
+
+#partial-fore-flower{
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  background-image: url();
+  background-size: auto 400px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  top: 100px;
+  right: -50px;
+
+}
+
+#partial-back-flower{
+  position: absolute;
+  width: 100%;
+  height: 350px;
+  background-image: url();
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: auto 350px;
+  top: 75px;
+  left: -25px;
+}
+
+#add-product-btn{
+  margin-top: -35px;
+}
+.cat-header {
+  margin-left: -3.8%;
+  margin-right: -3.8%;
+  margin-top: 0;
+}
+.con-filter{
+  margin-left:-45px;
+  margin-right: -16%;
+  width:125%;
+  height:100vh;
+  text-align: left;
+}
+.t1{
+  margin-top: 2%;
+}
+
+.form-filters{
+  margin-left:20px;
+}
+
+.head-search{
+  width: 104%;
+  margin-left: -2%;
+}
+.input-search{
+  padding: 0px 20px;
+  width: 300px;
+  height: 40px;
+  font-size: 22px;
+}
+.input-button{
+  width: auto;
+  height: auto;
+  margin-top: -1%;
+  font-size: 22px;
+}
+.j1 {
+  width: 123%;
+  margin-left: 0;
+  height: 355px;
+  margin-top:6%;
+}
+.i1 {
+  margin-top: 7.3%;
+  height: 355px;
+  margin-left: 22%;
+}
+
+.f1 {
+  margin-left:40px;
+  margin-right: 40px;
+}
+
+.l1{
+  margin-left:40px;
+  margin-right:40px;
+}
+
+.j2 {
+height:306.5px;
+
+margin-top: -11px;
+
+margin-left: -5%;
+width: 105%;
+margin-bottom: 50px;
+}
+
+.f2{
+  margin-left:50px;
+
+}
+
+.l2 {
+  margin-left:50px;
+
+}
+
+.j3 {
+margin-left:0;
+
+height:450px;
+width:120%;
+
+}
+
+.laadpaal-image{
+  width: 100%;
+  margin-left: 5%;
+}
+
+.laadpaal-tekstvak{
+background-color:white;
+height:120%;
+margin-left: 5%;
+margin-top:1%;
+width:100%;
+}
+.style-bedrijfsnaam{
+  margin-left:2%;
+  width:71%;
+}
+.f3 {
+  margin-left:40px;
+  margin-top:60px;
+  margin-right: 40px;
+}
+.i3{
+  height: 450px;
+  margin-right: 0;
+}
+
+
+.l3{
+  margin-left:40px;
+  margin-right:40px;
+  margin-bottom:50px;
+}
+
+.p1 {
+  margin-top: 50px;
+  height:305px;
+  margin-left:0;
+}
+.con-recent{
+  width:127%;
+
+  height:100vh;
+}
+
+.saved-image{
+  text-align: center;
+}
+
+.saved-image img{
+
+width: 150px;
+height: 150px;
+}
+
+#login-form{
+  width: 50%;
+  height: 60%;
+  border: 2px solid #000;
+  border-radius: 15px;
+  box-shadow: 7px 7px 15px rgba(0,0,0,0.6);
+  margin: 8% auto;
+  padding: 15px;
+}
+
+
+.img-thumb{
+  width: 200px;
+  height: 200px;
+}
+
+
+
+fotorama__wrap{
+  width: 90%;
+  margin: 15px auto;
+}
+
+.table-auto{
+  width:auto;
+  margin:0 auto;
+}
+
+.totals-table-header th{
+  text-align:center;
+}
+
+/**
+* The CSS shown here will not be introduced in the Quickstart guide, but
+* shows how you can use CSS to style your Element's container.
+*/
+input,
+.StripeElement {
+  height: 40px;
+
+  color: #32325d;
+  background-color: white;
+  border: 1px solid transparent;
+  border-radius: 4px;
+
+  box-shadow: 0 1px 3px 0 #e6ebf1;
+  -webkit-transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease;
+}
+
+input {
+  padding: 10px 12px;
+}
+
+input:focus,
+.StripeElement--focus {
+  box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+  border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}
+
+#cart_widget td, #recent_widget {
+  font size: 12px;
+}
+
+input.price-range {
+  width: 55px;
+  height: 12px;
+  color: white;
+}
+
+input.searchHLLH {
+  height: 12px;
+}
+
+.navbar {
+  height: auto;
+}
+
+.navbar-image{
+  height:40px;
+   width:auto;
+}
+.navbar {
+  margin-top: 0px;
+}
+
+.navbar-brand {
+
+}
+.dropdown-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 0px;
+  padding: 9px 10px;
+}
